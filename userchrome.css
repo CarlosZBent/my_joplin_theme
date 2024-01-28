@@ -1,0 +1,114 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+.title-input {
+	font-family: "Courier New";
+	font-size: 24px;
+}
+.editor-toolbar {
+	justify-content: center;
+	border-radius: 10px;
+	flex: none !important;
+	width: fit-content;
+	margin: auto;
+	padding: 3px;
+/*	box-shadow: 0px 2px 5px 2px #e7e7e7;
+	margin: 5px auto;*/
+}/*
+.tox.tbtn{
+	padding: 3px;
+}
+.sc-fznJRM{
+	/*top-right toolbar and time info container
+	width: 30% !important;
+	display: flex;
+	justify-content: space-evenly !important;
+}*/
+.sidebar  {
+	/* background-color: transparent !important; */
+}
+.eQiZCn {
+	/* sidebar - for background */
+	background-color: transparent !important;
+	border-right: 1px solid rgb(20,30,20) !important;
+}
+.title {
+	font-family: "Consolas";
+}
+.selected, .-selected {
+	border-radius: 15px;
+	font-weight: bold;
+	background-color: #272727 !important;
+}
+.list-item:hover {
+	border-radius: 15px;
+	width: 100%;
+	background-color: #e7e7e726;
+	padding: 2px !important;
+}
+.note-list-item span {
+    font-family: Consolas !important;
+}
+.note-list-item:hover {
+	border-radius: 15px;
+	width: 100%;
+	background-color: #e7e7e726 !important;
+}
+.note-list-item::before {
+	/* to remove the line from between note list items */
+	border-bottom: none !important;
+}
+.jBRUMO {
+	border-radius: 10px !important;
+	border-width: 0px !important;
+	border-style: none !important;
+	box-shadow: 0px 3px 6px 4px #272727;
+}
+.lcJttC {
+	/* sync button */
+	width: 35% !important;
+	min-width: fit-content !important;
+    margin: auto !important;
+}
+.lcJttC .knHWku {
+	display: none;
+}
+.fMHByY {
+	/* sync button */
+	border-color: none !important;
+}
+.jiwcuV {
+	/* sync button - for borders */
+	border: none !important;
+}
+.fMHByY:hover {
+	/* sync button */
+	border-color: none !important;
+}
+.sc-fzoYkl{
+	/*sync text*/
+	font-family: "Consolas";
+}
+.note-list {
+	background-color: transparent !important;
+}
+.yzDJl {
+	/* it contains .eRwGUD and .note-list */
+	border-right: 1px solid rgb(20,30,20) !important;
+}
+.eRwGUD {
+	/* box that contains the buttons for New note and New to-do */
+	background-color: transparent !important;
+}
+.iYSxvg::before {
+	border-bottom: none !important;
+}
+.eENMOW {
+	/* NOTEBOOK & TAGS signs */
+	display: none !important;
+}
+
+.bcHaHz {
+	/* + button to create notebook */
+	width: 35% !important;
+	min-width: fit-content !important;
+    margin: auto !important;
+}

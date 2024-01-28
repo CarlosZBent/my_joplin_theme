@@ -1,0 +1,23 @@
+/* For styling the rendered Markdown */
+
+body {
+font-family:"Courier New";
+font-size: 14px;
+}
+a {
+color: #0874d3;
+}
+
+h1 {
+    color: #349FFF;
+}
+h2 {
+    color: cadetblue;
+}
+h3 {
+    color: lightblue;
+}
+hr {
+    width: 75%;
+    
+}
